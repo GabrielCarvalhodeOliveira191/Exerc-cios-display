@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.banner {
+    background-image: url(../img/Calopsita.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.quadrado-na-imagem {
+    background-color: red;
+    text-align: center;
+    padding: 40px;
+    width: 340px;
+}
+
+.textos {
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    gap: 200px;
+    margin-left: 80px;
+}
+
+.texto1 {
+    color: red;
+}
+
+.texto2 {
+    color: blue;
+}
+
+.texto4 {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 300px;
+    border: 2px red solid;
+}
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.parte-cinza {
+    background: #a4a4a4;
+    display: flex;
+}
+
+.parte-cinza img {
+    padding: 30px;
+    margin-left: 550px;
+    
+}
+.parte-bege {
+
+ background: #d4c7a4;
+
+ justify-content: space-between;
+
+ padding: 40px;
+
+}
+
+
+.parte-azul {
+ background: #a0c8e1;
+
+}
+
+
+.parte-rosa {
+
+ background: #ff8ed4;
+
+flex-direction: column;
+
+}
+
+
+
+img {
+ width: 120px;
+    height: auto;
+
+}
+
+
+.bege .left {
+
+position: absolute;
+left: 40px;
+
+}
+
+.bege .right {
+ position: absolute;
+ right: 40px;
+
+}

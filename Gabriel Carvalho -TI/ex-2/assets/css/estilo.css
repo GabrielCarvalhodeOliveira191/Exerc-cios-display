@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.imagem {
+    display: flex;
+    gap: 50px;
+    padding-left: 400px;
+}
+
+.texto {
+    text-align: center;
+    padding: 30px;
+}
+
+.texto p {
+    text-align: center;
+    padding: 15px;
+}
+
+.texto h1{
+    text-align: center;
+    padding: 15px;
+    color: red;
+}
+
+.texto h2{
+    text-align: center;
+    padding: 15px;
+    color: blue;
+}

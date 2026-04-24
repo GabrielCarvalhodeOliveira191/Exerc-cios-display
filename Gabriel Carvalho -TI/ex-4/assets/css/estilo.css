@@ -1,0 +1,53 @@
+* {
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.quadrado1 {
+    background-color: #d9d9d9;
+    padding: 30px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 5px black solid;
+}
+
+.quadrado1 h3 {
+    text-align: center;
+    color: red;
+}
+
+.quadrado2 {
+    background-color: #6b1c9b;
+    padding: 30px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 5px black solid;
+}
+
+.quadrado2 h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.quadrado3 {
+    background-image: url(../img/Calopsita.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 100px;
+    border-radius: 100px;
+    border: 5px black solid;
+}
+
+.quadrado3 h3 {
+    color: white;
+    text-align: center;
+}
