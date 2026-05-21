@@ -4,7 +4,13 @@
     box-sizing: border-box;
     font-family: Inter;
 }
-
+ 
+body {
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+}
+ 
 .quadrado1 {
     background-color: #d9d9d9;
     padding: 30px;
@@ -13,12 +19,10 @@
     margin-top: 30px;
     border: 5px black solid;
 }
-
 .quadrado1 h3 {
     text-align: center;
     color: red;
 }
-
 .quadrado2 {
     background-color: #6b1c9b;
     padding: 30px;
@@ -27,12 +31,10 @@
     margin-top: 30px;
     border: 5px black solid;
 }
-
 .quadrado2 h3 {
     text-align: center;
     color: rgb(255, 255, 255);
 }
-
 .quadrado3 {
     background-image: url(../img/Calopsita.png);
     background-repeat: no-repeat;
@@ -46,7 +48,6 @@
     border-radius: 100px;
     border: 5px black solid;
 }
-
 .quadrado3 h3 {
     color: white;
     text-align: center;
