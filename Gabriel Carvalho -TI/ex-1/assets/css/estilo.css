@@ -10,6 +10,9 @@
 .header {
     background-color: blue;
     height: 80px;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
 }
 
 .header h3 {
@@ -18,9 +21,19 @@
     padding-top: 30px;
 }
 
-.banner img{
+.banner {
+    display: flex;          
+    justify-content: center;
+}
+
+.banner img {
     padding-left: 40%;
     margin-top: 20px;
+}
+
+.sobre-a-pagina {
+    display: flex;          
+    flex-direction: column; 
 }
 
 .sobre-a-pagina p {
